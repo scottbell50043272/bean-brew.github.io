@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Contact - Bean & Brew</title>
+  <style>
+body {
+      border: 5px solid brown;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+      color: brown;
+    }
+    .form-container {
+      border: 5px solid brown;
+      padding: 20px;
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h1>Get in contact with us at the coffee shop!</h1>
+<tr>
+  <h2><th><a href="Index.html">Home</a></th></h2>
+  <h2><th><a href="Promotions.html">Promotions</a></th></h2>
+  <h2><th><a href="Menu.html">Menu</a></th></h2>
+</tr>
+    <form action="mailto:yourname@example.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <input type="submit" value="Send">
+      <input type="reset" value="Clear">
+    </form>
+  </div>
+</body>
+</html>
