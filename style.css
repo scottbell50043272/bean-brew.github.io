@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #f4efe9;
-  color: #4b2e2e;
+  color: #a52b2a;
 }
 
 .container {
@@ -17,7 +17,7 @@ body {
 /* Styling for header + navigaiton */
 
 header {
-  background-color: #6f4e37;
+  background-color: #a52b2a;
   padding: 15px 0;
 }
 
@@ -43,7 +43,7 @@ img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-  border: 3px solid #6f4e37;
+  border: 3px solid #a52b2a;
 }
 
 
@@ -54,7 +54,7 @@ table {
 }
 
 th, td {
-  border: 1px solid #6f4e37;
+  border: 1px solid #a52b2a;
   padding: 10px;
   text-align: center;
 }
